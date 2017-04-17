@@ -7,20 +7,20 @@ The purpose was to create a boilerplat using flatui-pro
 
 # Added packages
 
-session
-check
-http
-iron:router
-danappelxx:hover.css
-flowkey:hotkeys
-themeteorchef:bert
-meteortoys:allthings
-ongoworks:security
-accounts-password
-alanning:roles
-less
-accounts-base
-useraccounts:bootstrap
++ session `// session variable accross your meteor app`
++ check `// check incomming data and return error to the client`
++ http `// implement http call client/server side`
++ iron:router `// implement routing for client`
++ danappelxx:hover.css `// add some cool css effect [Hover css](https://ianlunn.github.io/Hover/)`
++ flowkey:hotkeys `// Implement hotkey and action binding for the entire app (pretty cool)`
++ themeteorchef:bert `// alert for client`
++ meteortoys:allthings `Dev help, must have for meteor development`
++ ongoworks:security `// Security for pub sub`
++ alanning:roles `// roles implementation for meteor (like admin, manager, user, etc.)`
++ less `// support less for meteor`
++ accounts-base `// meteor account supporting`
++ accounts-password `// meteor user account password (like bcrypt, sha, etc.)`
++ useraccounts:bootstrap `// bootstrap login form (pretty cool)`
 
 
 # To begin on a meteor projet.

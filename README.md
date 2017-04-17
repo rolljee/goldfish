@@ -5,7 +5,7 @@ The purpose was to create a boilerplat using flatui-pro
 
 ![image](https://www.kaplankomputing.com/blog/wp-content/uploads/2015/08/meteor.png)
 
-## Added packages
+# Added packages
 
 session
 check
@@ -23,7 +23,7 @@ accounts-base
 useraccounts:bootstrap
 
 
-## To begin on a meteor projet.
+# To begin on a meteor projet.
 
 
 + `git clone https://github.com/rolljee/meteor-flatui`
@@ -34,7 +34,7 @@ useraccounts:bootstrap
 + `Then: meteor` -> Go on [localhost:3000](http://localhost:3000)
 
 
-## You will find
+# You will find
 
 + Basic implementation of Collection and collection security
 + Bootstrap and Flatui wrapped
@@ -42,7 +42,7 @@ useraccounts:bootstrap
 + Try and play with it as you want
 
 
-## Contribution
+# Contribution
 
 I'm glad to help if you need, contact me at n.riquelmebareiro@gmail.com
 

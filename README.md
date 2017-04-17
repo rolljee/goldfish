@@ -11,7 +11,7 @@ The purpose was to create a boilerplat using flatui-pro
 + check `// check incomming data and return error to the client`
 + http `// implement http call client/server side`
 + iron:router `// implement routing for client`
-+ danappelxx:hover.css `// add some cool css effect [Hover css](https://ianlunn.github.io/Hover/)`
++ danappelxx:hover.css `// add some cool css effect` [Hover css](https://ianlunn.github.io/Hover/)
 + flowkey:hotkeys `// Implement hotkey and action binding for the entire app (pretty cool)`
 + themeteorchef:bert `// alert for client`
 + meteortoys:allthings `Dev help, must have for meteor development`

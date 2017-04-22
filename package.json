@@ -1,0 +1,59 @@
+{
+  "name": "meteor-flatui",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "allowImportExportEverywhere": true
+    },
+    "plugins": [
+      "meteor"
+    ],
+    "extends": [
+      "airbnb",
+      "plugin:meteor/recommended",
+      "eslint:recommended"
+    ],
+    "settings": {
+      "import/resolver": "meteor"
+    },
+    "rules": {
+      "no-mixed-spaces-and-tabs": [
+        "error",
+        "smart-tabs"
+      ],
+      "meteor/no-session": "off",
+      "no-console": "off",
+      "meteor/template-names": "off",
+      "meteor/eventmap-params": "off",
+      "import/extensions": "off",
+      "import/no-extraneous-dependencies": "off",
+      "import/newline-after-import": "off",
+      "import/no-unresolved": "off"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "meteor": true
+    }
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "datatables": "^1.10.13",
+    "jquery": "^3.2.1",
+    "meteor-node-stubs": "~0.2.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}

@@ -12,8 +12,6 @@
  *
  * http://api.jqueryui.com/category/ui-core/
  */
-import jquery from 'jquery';
-import DataTable from 'datatables';
 
 (function ($, undefined) {
 

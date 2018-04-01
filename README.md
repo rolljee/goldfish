@@ -7,32 +7,34 @@ The purpose was to create a boilerplat using flatui-pro
 
 # Added packages
 
-+ session `// session variable accross your meteor app`
-+ check `// check incomming data and return error to the client`
-+ http `// implement http call client/server side`
-+ iron:router `// implement routing for client`
-+ danappelxx:hover.css `// add some cool css effect` [Hover css](https://ianlunn.github.io/Hover/)
-+ flowkey:hotkeys `// Implement hotkey and action binding for the entire app (pretty cool)`
-+ themeteorchef:bert `// alert for client`
++ session `session variable accross your meteor app`
++ check `check incomming data and return error to the client`
++ http `implement http call client/server side`
++ iron:router `implement routing for client`
++ danappelxx:hover.css `add some cool css effect` [Hover css](https://ianlunn.github.io/Hover/)
++ flowkey:hotkeys `Implement hotkey and action binding for the entire app (pretty cool)`
++ themeteorchef:bert `alert for client`
 + meteortoys:allthings `Dev help, must have for meteor development`
-+ ongoworks:security `// Security for pub sub`
-+ alanning:roles `// roles implementation for meteor (like admin, manager, user, etc.)`
-+ less `// support less for meteor`
-+ accounts-base `// meteor account supporting`
-+ accounts-password `// meteor user account password (like bcrypt, sha, etc.)`
-+ useraccounts:bootstrap `// bootstrap login form (pretty cool)`
++ ongoworks:security `Security for pub sub`
++ alanning:roles `roles implementation for meteor (like admin, manager, user, etc.)`
++ less `support less for meteor`
++ accounts-base `meteor account supporting`
++ accounts-password `meteor user account password (like bcrypt, sha, etc.)`
++ useraccounts:bootstrap `bootstrap login form (pretty cool)`
 
 
-# To begin on a meteor projet.
+# To begin on this meteor projet.
 
+```shell
+# Clone the project and get it ready
+git clone https://github.com/rolljee/meteor-flatui
+cd meteor-flatui && git remote remove origin
+git remote add origin /your/github/repo
+git add -A && git commit -am "initial commit" && git push origin master
 
-+ `git clone https://github.com/rolljee/meteor-flatui`
-+ `cd meteor-flatui && git remote remove origin`
-+ `git remote add origin /your/github/repo`
-+ `git add -A && git commit -a -m "initial commit" && git push origin master`
-+ `On the root directory: meteor npm install` (intall all depedencies)
-+ `Then: meteor` -> Go on [localhost:3000](http://localhost:3000)
-
+# intall all depedencies and launch the project
+meteor npm install && npm start
+```
 
 # You will find
 

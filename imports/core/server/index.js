@@ -1,1 +1,1 @@
-import './publications';
+import '../lib/todos';

@@ -39,6 +39,7 @@ es5-shim@4.7.3
 flowkey:hotkeys@1.2.0
 fortawesome:fontawesome@4.7.0
 fourseven:scss@4.5.4
+fullcalendar:fullcalendar@2.9.0
 geojson-utils@1.0.10
 herteby:denormalize@0.6.5
 hot-code-push@1.0.4
@@ -86,6 +87,7 @@ mobile-experience@1.0.5
 mobile-status-bar@1.0.14
 modules@0.11.5
 modules-runtime@0.9.2
+momentjs:moment@2.8.4
 mongo@1.4.5
 mongo-dev-server@1.1.0
 mongo-id@1.0.7
